@@ -1,0 +1,12 @@
+#banner {
+	background-image: url(../img/SAP-ABAP.jpg);
+	background-repeat: no-repeat;
+	background-size: 1080px 100%;
+}
+#navigation ul li:hover{
+	background: #1F87C4;
+}
+
+.button-more{
+	background: #1F87C4;
+}

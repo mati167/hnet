@@ -1,0 +1,13 @@
+#banner {
+	background-image: url(../img/verde.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+#navigation ul li:hover {
+	background: #235E3D;
+}
+
+.button-more {
+	background: #235E3D;
+}

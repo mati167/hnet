@@ -1,0 +1,13 @@
+#banner {
+	background-image: url(../img/jxc.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position-y: 5%;
+}
+#navigation ul li:hover {
+	background: #FFFF33;
+}
+
+.button-more {
+	background: #FFFF33;
+}

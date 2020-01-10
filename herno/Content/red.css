@@ -1,0 +1,12 @@
+﻿#banner {
+    background-image: url(../img/urss.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#navigation ul li:hover {
+    background: #CA3413;
+}
+
+.button-more {
+    background: #CA3413;
+}

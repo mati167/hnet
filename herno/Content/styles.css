@@ -1,0 +1,120 @@
+body{
+    font-family: "lucida grande" , Tahoma,Verdana,Arial,sans-serif;
+    background-color: #e9e9e9;
+
+}
+
+#wrapper{
+    width: 1080px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 5px solid #dedede;
+    background-color: #fff;
+    
+}
+
+#banner {
+    height: 200px;
+    border: 3px solid #e3e3e3;
+}
+
+
+#selector-theme {
+    position: fixed;
+    right: 15%;
+}
+
+li {
+    display: inline;
+    padding: 4px 10px;
+}
+
+#to-green,
+#to-red,
+#to-blue,
+#to-k,
+#to-yellow {
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#to-green {
+    background: #235E3D;
+}
+
+#to-red {
+    background: #CA3413;
+}
+
+#to-blue {
+    background: #1F87C4;
+}
+
+#to-yellow {
+    background: #FFFF33;
+}
+
+#to-k {
+    background-image: url(../img/sol.png);
+    background-size: 20px 23px;
+}
+
+#navigation {
+    font-family: Helvetica, Arial;
+    background: #333;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#navigation ul {
+       line-height: 46px;
+        list-style: none;
+}
+
+#navigation ul li {
+        height: 46px;
+        display: inline-block;
+        transition: all 300ms;
+}
+
+#navigation ul li:hover {
+
+}
+
+    #navigation a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+#content_area {
+    float: left;
+    width: 750px;
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    border: 3px solid #e3e3e3;
+}
+
+#sidebar {
+    float: right;
+    width: 250px;
+    height: 400px;
+    margin: 20px 10px 20px 10px;
+    border: 3px  solid #e3e3e3;
+}
+
+#sidebar img {
+       width: 100%;
+}
+
+
+#footer{
+    clear: both;
+    width: auto;
+    height: 40px;
+    margin-top: 20px;
+}
